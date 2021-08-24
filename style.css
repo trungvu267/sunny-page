@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Barlow', sans-serif;
+    /* font-family: 'Fraunces', serif; */
+    justify-content: flex-start;
+}
+header{
+    height: 90vh;
+    background-color: aqua;
+    background-image: url(images/desktop/image-header.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+/* navigation */
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.bars{
+    display: none;
+}
+.menu{
+    display: flex;
+    cursor: pointer;
+}
+.nav .menu{
+    display: flex;
+}
+.menu div{
+    padding: 4px 16px;
+    color: white;
+}
+.menu .contact{
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+.contact:hover{
+    background-color: black;
+    color: white;
+}
+/* title */
+.header_title{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2rem;
+}
+.header_title .text{
+    font-size: 4rem;
+    color:white
+}
+/* main content */
+.section{
+    height: 60vh;
+    display: flex;
+}
+.section .card{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.section .info{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 1rem;
+}
+.info .title{
+    font-size: 2rem;
+    text-align: left;
+    font-weight: bold;
+}
+.info .content{
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.6;
+    color: #818498;
+}
+.info .btn{
+   padding-bottom: 5px;
+   text-transform: uppercase;
+   font-size: 1rem;
+   font-weight: bold;
+}
+.section1 .btn{
+    border-bottom: 5px solid hsl(7, 99%, 70%);
+    cursor: pointer;
+}
+.section2 .btn{
+    border-bottom: 5px solid hsl(51, 100%, 49%);
+    cursor: pointer;
+}
+.section1 .btn:hover{
+    transition: 1.5s;
+    box-shadow: 0 -5px hsl(7, 99%, 70%) inset ;
+}
+.section2 .btn:hover{
+    transition: 1.5s;
+    box-shadow: 0 -5px hsl(51, 100%, 49%) inset ;
+}
+.section .img{
+    flex: 1;
+}
+.section img{
+    width: 100%;
+    height: max-content;
+    height: 100%;
+    object-fit: cover;
+}
+.graphic{
+    background-image: url(images/desktop/image-graphic-design.jpg);
+    background-position: center top;
+    background-size: cover;
+    color: hsl(167, 40%, 24%);
+}
+.photography{
+    background-image: url(images/desktop/image-photography.jpg);
+    background-position: center top;
+    background-size: cover;
+    color: hsl(198, 62%, 26%);
+}
+.graphic .content{
+    color: hsl(167, 40%, 24%);
+}
+.photography .content{
+    color: hsl(198, 62%, 26%);
+}
+.section3 .card{
+    justify-content: flex-end;
+}
+.section3 .info{
+
+    align-items: center;
+    text-align: flex-end;
+}
+.section4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section4 .client-title{
+    font-size: 1rem;
+    font-weight: bold;
+    color: hsl(210, 4%, 67%);
+    margin: 4rem auto;
+    text-transform: uppercase;
+}
+.section4 .clients{
+    display: flex;
+    gap: 1rem;
+    width: 80%;
+    flex: 1;
+    justify-content: space-between;
+}
+.section4 .client{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;   
+}
+.client img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.client .content{
+    font-size: 15px;
+    margin: 2rem auto;
+    color: rgb(157, 160, 161);
+}
+
+.author p{
+    margin-top: 1rem;
+    color: hsl(210, 4%, 67%);
+}
+
+.gallery{
+    display: flex;
+    background-color: hsl(168, 66%, 66%);
+    /* height: 55vh; */
+}
+.gallery .img{
+    flex: 0.25;
+}
+.gallery img{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: hsl(168, 66%, 66%);
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    gap: 1.5rem;
+}
+footer .menu div{
+    color:hsl(168, 34%, 41%);
+}
+footer .social{
+    display: flex;
+    gap: 1.5rem;
+    cursor: pointer;
+}
+@media (max-width: 740px) {
+    
+    nav .bars{
+        display: inline;
+        color: white;
+        font-size: 2.5rem;
+        cursor: pointer;
+        position: relative;
+    }
+    
+   
+    #menu{
+        display: none;
+        background-color: white;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        position: absolute;
+        top: 15%;
+        left: 10%;
+        right: 10%;
+        width: 80%;
+        font-size: 1.2rem;
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
+        border-radius: 15px;
+    }
+    .menu div{
+        color: #818498;
+        font-weight: bold;
+    }
+    .menu .contact{
+        background-color: hsl(51, 100%, 49%);
+        color: black;
+        border-radius: 15px;
+    }
+    .display{
+        display: flex !important
+    }
+    .display1{
+        display: none !important
+    }
+
+    .section{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .section .card{
+        padding: 1rem auto;
+    }
+    .section2{
+        flex-direction: column;
+    }
+    .section3{
+        height:100vh;
+    }
+    .clients{
+        flex-direction: column;
+    }
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery .img{
+        flex-basis: 50%;
+        height: auto;
+    }
+}
+
