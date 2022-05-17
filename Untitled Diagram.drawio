@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-17T16:37:14.384Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="rCO0lNjUWd0iOD_6KbCs" version="18.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-17T16:41:20.401Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.67 Safari/537.36" etag="eHaJti1PtqG5dyOylC0s" version="18.0.6" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="2333" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -451,7 +451,7 @@
         <mxCell id="ANgWnDD1mnwX0dB6Oqj2-112" value="Tên bảng điểm" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;fontStyle=0" parent="ANgWnDD1mnwX0dB6Oqj2-110" vertex="1">
           <mxGeometry y="60" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ANgWnDD1mnwX0dB6Oqj2-113" value="(9) Hộp thư" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+        <mxCell id="ANgWnDD1mnwX0dB6Oqj2-113" value="(10) Hộp thư" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
           <mxGeometry x="840" y="1280" width="170" height="150" as="geometry" />
         </mxCell>
         <mxCell id="ANgWnDD1mnwX0dB6Oqj2-114" value="# Mã Giảng viên" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontStyle=4" parent="ANgWnDD1mnwX0dB6Oqj2-113" vertex="1">
@@ -588,7 +588,7 @@
             <mxPoint x="885" y="276.31999999999994" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ep-iAeCH7H6ESvxpCvKr-12" value="(10) Môn học" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="ep-iAeCH7H6ESvxpCvKr-12" value="(9) Môn học" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
           <mxGeometry x="390" y="1480" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ep-iAeCH7H6ESvxpCvKr-13" value="# Mã Môn học" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;" vertex="1" parent="ep-iAeCH7H6ESvxpCvKr-12">
